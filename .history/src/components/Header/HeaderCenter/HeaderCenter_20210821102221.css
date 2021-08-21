@@ -1,0 +1,5 @@
+.mid-header {
+  background: var(--header-background);
+  color: var(--header-color);
+  padding: 10px 0px;
+}

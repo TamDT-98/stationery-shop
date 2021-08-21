@@ -1,0 +1,14 @@
+input {
+  border: none;
+  outline: none;
+}
+
+.input:focus {
+  border: none;
+}
+
+button {
+  /* width: 30px; */
+  margin: auto;
+  border: none;
+}

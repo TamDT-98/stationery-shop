@@ -1,0 +1,13 @@
+input {
+  border: none;
+}
+
+button {
+  width: 30px;
+  margin: auto;
+  border: none;
+}
+
+.search-icon {
+  width: 15px;
+}

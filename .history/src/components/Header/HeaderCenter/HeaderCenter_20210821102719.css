@@ -1,0 +1,14 @@
+.mid-header {
+  background: #ec1c24;
+  color: #f0f0f0;
+  padding: 10px 0px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -10px;
+  margin-left: -10px;
+}

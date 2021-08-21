@@ -1,0 +1,18 @@
+input {
+  border: none;
+  outline: none;
+}
+
+.input:focus {
+  border: none;
+}
+
+button {
+  /* width: 30px; */
+  margin: auto;
+  border: none;
+  background-color: #c40019;
+}
+
+.btn-action {
+}

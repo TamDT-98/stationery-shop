@@ -1,0 +1,14 @@
+input {
+  border: none;
+  outline: none;
+}
+
+.input:focus {
+  border: none;
+}
+
+button {
+  margin: auto;
+  border: none;
+  background-color: #c40019;
+}

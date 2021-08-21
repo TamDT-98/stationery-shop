@@ -1,0 +1,17 @@
+input:focus {
+  box-shadow: none;
+}
+
+.input:focus {
+  border: none;
+}
+
+.btn-action {
+  background-color: #c40019;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-action:hover {
+  background-color: #d42026;
+}
