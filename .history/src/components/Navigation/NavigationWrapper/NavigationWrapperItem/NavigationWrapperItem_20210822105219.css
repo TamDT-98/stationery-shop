@@ -1,0 +1,16 @@
+.navigation .menu-item {
+  position: initial;
+}
+.navigation .list-group-item {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-bottom: 0px;
+}
+.navigation .list-group-item > a {
+  text-decoration: none;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}

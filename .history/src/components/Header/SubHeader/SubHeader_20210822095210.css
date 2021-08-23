@@ -1,0 +1,87 @@
+.subheader {
+  background: #fff;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.subheader .container {
+  display: grid;
+  grid-template-columns: calc(100% / 3 - 90px) 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subheader .container > * {
+  padding-bottom: 8px;
+}
+
+.toogle-nav-wrapper {
+  cursor: pointer;
+  position: relative;
+  margin-bottom: -8px;
+  margin-top: -8px;
+}
+
+.icon-bar {
+  cursor: auto !important;
+}
+
+.toggle-nav,
+.icon-bar {
+  width: 24px;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  border-radius: 0px;
+}
+
+.toggle-nav .bar,
+.icon-bar .bar {
+  height: 2px;
+  background: #000;
+  width: 24px;
+  border-radius: 1px;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.mr-2,
+.mx-2 {
+  margin-right: 0.5rem !important;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.shop-policises li {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.shop-policises div {
+  padding: 4px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-policises div img {
+  width: 24px;
+  height: 24px;
+}
+
+.shop-policises .link {
+  font-size: 16px;
+}

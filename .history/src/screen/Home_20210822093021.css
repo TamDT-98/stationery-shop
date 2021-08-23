@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Home {
+  max-width: 1440px;
+  color: #000000;
+  background: #f4f4f4;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}

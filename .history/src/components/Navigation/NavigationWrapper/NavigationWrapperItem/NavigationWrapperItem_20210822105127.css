@@ -1,0 +1,14 @@
+.navigation .menu-item {
+  position: initial;
+}
+
+element.style {
+}
+.navigation .menu-item {
+  position: initial;
+}
+.navigation .list-group-item {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-bottom: 0px;
+}

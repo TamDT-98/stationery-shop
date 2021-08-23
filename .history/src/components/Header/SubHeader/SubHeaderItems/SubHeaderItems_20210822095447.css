@@ -1,0 +1,20 @@
+.lazyload.loaded {
+  background: transparent;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+a.link {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+a.link:hover {
+  color: #ec1c24;
+  filter: brightness(1.2);
+  text-decoration: none;
+}

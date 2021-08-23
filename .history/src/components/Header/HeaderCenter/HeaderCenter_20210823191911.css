@@ -1,0 +1,16 @@
+.mid-header {
+  background: #ec1c24;
+  color: #f0f0f0;
+  padding: 10px 0px;
+  justify-content: space-evenly;
+}
+
+@media (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1190px;
+  }
+}

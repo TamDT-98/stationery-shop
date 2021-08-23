@@ -1,0 +1,30 @@
+.navigation .menu-item {
+  position: initial;
+}
+.navigation .list-group-item {
+  padding: 8px 15px;
+  cursor: pointer;
+  border-bottom: 0px;
+}
+.navigation .list-group-item > a {
+  text-decoration: none;
+}
+
+.align-items-center {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.justify-content-between {
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+.d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+menu-item a {
+  color: #000000;
+}

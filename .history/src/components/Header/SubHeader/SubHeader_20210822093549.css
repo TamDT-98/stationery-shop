@@ -1,0 +1,14 @@
+.subheader {
+  background: #fff;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.subheader .container {
+  display: grid;
+  grid-template-columns: calc(100% / 3 - 90px) 1fr;
+  justify-content: space-between;
+  align-items: center;
+}
