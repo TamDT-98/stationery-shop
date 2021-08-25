@@ -1,0 +1,100 @@
+.item_product_main {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  background: #fff;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.form-control:focus,
+a,
+button,
+.page-link:focus,
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.item_product_main .product-thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+
+.item_product_main .image_thumb {
+  display: block;
+}
+
+.item_product_main a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+.form-control:focus,
+a,
+button,
+.page-link:focus,
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.embed-responsive-1by1::before {
+  padding-top: 100%;
+}
+
+.embed-responsive-1by1::before {
+  padding-top: 100%;
+}
+
+.pos-relative.embed-responsive.embed-responsive-1by1 .product-frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* --image-scale: 1;
+  transform: translate(-50%, -50%) scale(var(--image-scale));
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%; */
+}
+
+.ok {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  /* --image-scale: 1;
+  transform: translate(-50%, -50%) scale(var(--image-scale));
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%; */
+}
+
+.pos-relative.embed-responsive.embed-responsive-1by1 img:not(:first-child) {
+  --image-scale: 0.8;
+}
+
+.lazyload.loaded {
+  background: transparent;
+}
+
+.product-frame {
+  z-index: 2;
+}
+
+@media (min-width: 1025px) {
+  .item_product_main {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.fa,
+.fas {
+  font-weight: 900;
+}
+
+.btn-main {
+  border-color: #ec1c24 !important;
+  color: #ec1c24 !important;
+}
+
+.btn-main:hover {
+  color: #fff;
+  background: #ec1c24;
+}

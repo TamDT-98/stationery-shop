@@ -1,0 +1,9 @@
+.btn-main {
+  border-color: #ec1c24;
+  color: #ec1c24;
+}
+
+.btn-main:hover {
+  color: #fff;
+  background: #ec1c24;
+}

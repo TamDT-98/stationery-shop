@@ -1,0 +1,46 @@
+:root {
+  --background-color: #ffffff;
+  --countdown-background: #ff4949;
+  --countdown-color: #ffffff;
+}
+
+.flashsale {
+  background: var(--background-color, transparent) 
+  padding: 15px;
+}
+
+.heading-bar {
+  font-size: 16px;
+  background: #fff;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-top: 5px;
+}
+
+.flashsale__title {
+  display: flex;
+  align-items: center;
+}
+
+element.style {
+}
+.flashsale__title {
+  display: flex;
+  align-items: center;
+}
+.heading-bar__title {
+  color: #000000;
+  font-size: 1.4em;
+  margin: 0px;
+  line-height: 1.2;
+}
+
+a.link {
+  text-decoration: none;
+  color: #000000;
+  cursor: pointer;
+}
+
+.flashsale__countdown-wrapper {
+  display: none;
+}

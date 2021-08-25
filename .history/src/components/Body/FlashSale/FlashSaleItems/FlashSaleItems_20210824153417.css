@@ -1,0 +1,24 @@
+.item_product_main .product-thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+
+.embed-responsive-1by1::before {
+  padding-top: 100%;
+}
+
+.embed-responsive::before {
+  display: block;
+  content: "";
+}
+
+.pos-relative.embed-responsive.embed-responsive-1by1 img {
+  --image-scale: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(var(--image-scale));
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}

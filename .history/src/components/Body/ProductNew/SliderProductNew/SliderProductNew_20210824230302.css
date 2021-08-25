@@ -1,0 +1,14 @@
+.slick-prev:before,
+.slick-next:before {
+  font-size: 40px;
+}
+
+.slick-prev,
+.slick-next {
+  transform: translate(-50%, -50%);
+}
+.slick-prev:hover,
+.slick-next:hover {
+  opacity: 1;
+  color: #000;
+}
