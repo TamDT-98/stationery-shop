@@ -1,0 +1,5 @@
+.tabs li.current {
+  color: #fff;
+  background: #ec1c24;
+  border-color: #ec1c24;
+}

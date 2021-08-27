@@ -1,0 +1,10 @@
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+/* .custom-input-group .input-group-btn {
+  position: absolute;
+  right: 0px;
+  z-index: 4;
+  height: 100%;
+} */

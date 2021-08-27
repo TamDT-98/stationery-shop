@@ -1,0 +1,53 @@
+.top-footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #f4f4f4;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.custom-input-group .input-group-btn {
+  position: absolute;
+  right: 0px;
+  z-index: 4;
+  height: 100%;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.form-control:focus,
+a,
+button,
+.page-link:focus,
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+.custom-input-group {
+  overflow: hidden;
+  border-radius: 0.25rem;
+  position: relative;
+}

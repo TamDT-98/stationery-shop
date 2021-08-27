@@ -1,0 +1,89 @@
+.top-footer {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background: #f4f4f4;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.top-footer h4 {
+  font-size: 16px;
+  color: #23486c;
+  margin-bottom: 15px;
+}
+
+.custom-input-group .input-group-btn {
+  position: absolute;
+  right: 0px;
+  z-index: 4;
+  height: 100%;
+}
+
+.h-100 {
+  height: 100% !important;
+}
+
+.form-control:focus,
+a,
+button,
+.page-link:focus,
+.btn,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn {
+  border-radius: 4px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+.custom-input-group {
+  overflow: hidden;
+  border-radius: 0.25rem;
+  position: relative;
+}
+
+.custom-input-group .input-group-field {
+  width: 100%;
+  height: 40px;
+  padding: 0 10px;
+  line-height: 40px;
+  background: transparent;
+  color: #363636;
+  outline: none;
+  padding: 0 50px 0 10px;
+  float: right;
+  border: 1px solid #ebebeb;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 0.25rem;
+  border: none;
+}
+
+img,
+iframe {
+  max-width: 100%;
+  left: 0;
+}

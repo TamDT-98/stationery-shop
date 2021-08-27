@@ -1,0 +1,16 @@
+.tabs li.current {
+  color: #fff;
+  background: #ec1c24;
+  border-color: #ec1c24;
+}
+
+.tabs li {
+  position: relative;
+  border-radius: 4px;
+  white-space: nowrap;
+  color: #000000;
+  background: #eee;
+  border: 1px solid transparent;
+  font-size: 14px;
+  user-select: none;
+}

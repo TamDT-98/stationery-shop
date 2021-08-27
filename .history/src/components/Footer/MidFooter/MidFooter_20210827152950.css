@@ -1,0 +1,59 @@
+.mid-footer {
+  font-size: 14px;
+  color: #4b4c4c;
+  padding-top: 40px;
+  background: #fff;
+}
+
+.mid-footer p {
+  margin-bottom: 0;
+}
+
+.about-company {
+  line-height: 24px;
+  margin-top: 18px;
+}
+
+.about-company p:first-child {
+  font-weight: bold;
+}
+
+.mid-footer .title-menu {
+  margin: 0px 0px 17px;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mid-footer .f-block.f-support > p {
+  color: #f61238;
+  line-height: 1;
+  font-size: 16px;
+  font-family: "brandon", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.mid-footer .list-menu {
+  list-style: none;
+  padding: 0px;
+}
+
+.mid-footer .li_menu {
+  list-style: "-";
+  padding-bottom: 6px;
+  list-style-position: inside;
+}
+
+.mid-footer .list-menu .link {
+  color: inherit;
+  font-size: 14px;
+}
+
+.mid-footer .follow_option .link.facebook {
+  color: #1f428a;
+  border-color: #1f428a;
+}

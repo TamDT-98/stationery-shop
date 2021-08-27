@@ -1,0 +1,46 @@
+.ScrollTop {
+  position: fixed;
+  right: 15px;
+  border: 1px solid #ec1c24;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+  transform: translateY(0);
+  bottom: 15px;
+  color: #ec1c24;
+}
+
+.ScrollTop-active {
+  display: inline-block;
+  animation: moveup 1s ease-in;
+}
+
+.ScrollTop i {
+  position: relative;
+  top: 9%;
+  font-size: 30px;
+}
+
+@keyframes moveup {
+  from {
+    bottom: -5%;
+    opacity: 0;
+  }
+  to {
+    bottom: 15px;
+    opacity: 1;
+  }
+}
+
+.ScrollTop:hover {
+  background-color: #ec1c24;
+  transition: 500ms all ease-in-out;
+}
+
+.ScrollTop:hover i {
+  color: #fff;
+  transition: 500ms all ease-in-out;
+}

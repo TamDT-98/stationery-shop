@@ -1,0 +1,12 @@
+.home-parnter {
+  background: #fff;
+  margin-top: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.home-parnter #home-partner-list {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+}
