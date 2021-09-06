@@ -1,0 +1,13 @@
+.drop-menu {
+  position: absolute;
+  opacity: 1;
+  visibility: inherit;
+  z-index: 9;
+  width: 100%;
+}
+
+.drop-menu.active {
+  opacity: 1;
+  visibility: inherit;
+  z-index: 9;
+}

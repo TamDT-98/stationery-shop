@@ -1,0 +1,8 @@
+.navigation-wrapper {
+  position: absolute;
+  opacity: 1;
+  visibility: inherit;
+  z-index: -1;
+  width: 100%;
+  margin-top: 7px;
+}

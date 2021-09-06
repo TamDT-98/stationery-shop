@@ -1,0 +1,11 @@
+.navigation-wrapper {
+  position: absolute;
+
+  width: 100%;
+}
+
+.navigation-wrapper.active {
+  opacity: 1;
+  visibility: inherit;
+  z-index: 9;
+}

@@ -1,0 +1,8 @@
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.align-items-baseline {
+  -ms-flex-align: baseline !important;
+  align-items: baseline !important;
+}

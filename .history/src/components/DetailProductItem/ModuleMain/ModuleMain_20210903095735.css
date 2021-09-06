@@ -1,0 +1,37 @@
+.section .container.card {
+  border: none;
+}
+
+#content {
+  height: 500px;
+  overflow: hidden;
+  word-break: break-word;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-parameter {
+  border-collapse: collapse;
+  border-color: #eeeeee !important;
+  border-spacing: 0px;
+  border-style: solid;
+  box-sizing: border-box;
+  color: #333333 !important;
+  font-size: 13px;
+  margin-bottom: 20px !important;
+  max-width: 100%;
+  min-width: 500px;
+  width: 823px !important;
+}
+
+.name-info {
+  background-color: #f7f7f7 !important;
+  border-color: #eeeeee;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 8px;
+  vertical-align: top;
+  width: 113px;
+}

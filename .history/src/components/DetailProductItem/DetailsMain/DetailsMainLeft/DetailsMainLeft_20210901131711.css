@@ -1,0 +1,3 @@
+#gallery_02 .item.slick-slide.slick-current.slick-active {
+  border-color: var(--primary-color);
+}

@@ -1,0 +1,9 @@
+.section .container.card {
+  border: none;
+}
+.heading-bar__title {
+  color: var(--text-color);
+  font-size: 1.4em;
+  margin: 0px;
+  line-height: 1.2;
+}

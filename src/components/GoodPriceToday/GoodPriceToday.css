@@ -1,0 +1,6 @@
+.GoodPriceToday .navigation-wrapper {
+  position: absolute;
+  z-index: 10;
+  top: 5.3vh;
+  left: -1px;
+}

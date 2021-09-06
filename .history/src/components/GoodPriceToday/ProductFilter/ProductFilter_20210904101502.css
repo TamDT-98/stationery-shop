@@ -1,0 +1,13 @@
+.sidebar {
+  order: -1;
+  border-right: 1px solid #eee;
+}
+
+.card {
+  border-radius: 0px !important;
+  border: none;
+}
+
+aside.aside-item {
+  padding-top: 15px;
+}

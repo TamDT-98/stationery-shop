@@ -1,0 +1,13 @@
+.bread-crumb,
+.bread-crumb .link {
+  color: #999;
+}
+
+.bread-crumb,
+.bread-crumb .breadcrumb {
+  background: #eee;
+}
+
+a {
+  color: #000000;
+}

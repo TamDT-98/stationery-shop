@@ -1,0 +1,16 @@
+.title-product {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.details-pro .group-status {
+  font-size: 14px;
+}
+
+.status_name {
+  color: #ec1c24;
+}
+
+.product_sku {
+  margin-top: 5px;
+}

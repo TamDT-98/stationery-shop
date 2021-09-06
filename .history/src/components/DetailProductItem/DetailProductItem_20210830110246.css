@@ -1,0 +1,5 @@
+.navigation-wrapper.active {
+  opacity: 1;
+  visibility: inherit;
+  z-index: 9;
+}

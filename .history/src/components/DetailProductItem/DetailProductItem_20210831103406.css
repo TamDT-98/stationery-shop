@@ -1,0 +1,11 @@
+.drop-menu > .navigation-wrapper {
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.drop-menu.active {
+  opacity: 1;
+  visibility: inherit;
+  z-index: 9;
+}

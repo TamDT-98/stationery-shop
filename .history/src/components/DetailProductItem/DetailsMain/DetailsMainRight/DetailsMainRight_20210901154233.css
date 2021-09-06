@@ -1,0 +1,38 @@
+.title-product {
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+
+.details-pro .group-status {
+  font-size: 14px;
+}
+
+.status_name {
+  color: #ec1c24;
+}
+
+.product_sku {
+  margin-top: 5px;
+  margin-bottom: 1rem;
+}
+
+.details-product .details-pro .price-box {
+  position: relative;
+  margin: 15px 0 10px;
+  padding: 10px 16px;
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.price-box .col-9 {
+  display: flex;
+  align-items: center;
+}
+
+.details-product .details-pro .product-price {
+  font-size: 30px;
+  color: var(--price-color);
+  font-weight: 500;
+  line-height: 30px;
+  font-family: inherit;
+}

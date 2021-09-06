@@ -1,0 +1,9 @@
+.section .container.card {
+  border: none;
+}
+
+#content {
+  height: 500px;
+  overflow: hidden;
+  word-break: break-word;
+}

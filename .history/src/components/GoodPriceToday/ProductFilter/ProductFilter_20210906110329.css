@@ -1,0 +1,93 @@
+.sidebar {
+  order: -1;
+  border-right: 1px solid #eee;
+}
+
+.card {
+  border-radius: 0px !important;
+  border: none;
+}
+
+aside.aside-item {
+  padding-top: 15px;
+}
+
+.title-head {
+  font-size: 1rem;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  color: red;
+  font-weight: 400;
+}
+
+.aside-filter ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0px;
+}
+
+.aside-content .filter-item {
+  position: relative;
+  clear: left;
+  font-size: 14px;
+  padding: 0;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.7rem;
+}
+
+.custom-checkbox input {
+  display: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.aside-content .filter-item .fa {
+  cursor: pointer;
+  display: inline;
+}
+
+element.style {
+}
+.custom-checkbox input {
+  display: none;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+user agent stylesheet input[type="checkbox" i]:focus-visible {
+  outline-offset: 2px;
+}
+
+.custom-checkbox .fa {
+  display: inline;
+}

@@ -1,0 +1,11 @@
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.align-items-baseline {
+  align-items: baseline !important;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
