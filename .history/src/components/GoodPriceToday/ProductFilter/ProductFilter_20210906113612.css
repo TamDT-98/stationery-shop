@@ -1,0 +1,102 @@
+.sidebar {
+  order: -1;
+  border-right: 1px solid #eee;
+}
+
+.card {
+  border-radius: 0px !important;
+  border: none;
+}
+
+aside.aside-item {
+  padding-top: 15px;
+}
+
+.title-head {
+  font-size: 1rem;
+  margin-bottom: 14px;
+  text-transform: uppercase;
+  color: red;
+  font-weight: 400;
+}
+
+.aside-filter ul {
+  padding-left: 0;
+  list-style: none;
+  margin: 0px;
+}
+
+.aside-content .filter-item {
+  position: relative;
+  clear: left;
+  font-size: 14px;
+  padding: 0;
+}
+
+.custom-checkbox {
+  position: relative;
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 1.7rem;
+}
+
+/* .custom-checkbox input {
+  display: none;
+} */
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.aside-content .filter-item .fa {
+  cursor: pointer;
+  display: inline;
+}
+
+input[type="checkbox" i]:focus-visible {
+  outline-offset: 2px;
+}
+
+.custom-checkbox .fa {
+  display: inline;
+}
+
+.custom-checkbox input:checked ~ .fa:before {
+  z-index: 2;
+  background: no-repeat 50%/50% 50%;
+  background-image: 'url("../../../assets//icon/bx-check.svg")';
+}
+
+.custom-checkbox .fa:after,
+.custom-checkbox .fa:before {
+  content: "";
+  pointer-events: none;
+  background-color: var(--filter-color, #fff);
+  box-shadow: none;
+  position: absolute;
+  top: 0.125rem;
+  left: 0rem;
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.custom-checkbox:not(.color) input:checked ~ .fa:after {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.custom-checkbox .fa:after {
+  border: 1px solid #cad1d7;
+  transition: all 0.3s ease;
+  border-radius: 0.2rem;
+  background-color: var(--filter-color, #fff);
+  border-color: var(--filter-color);
+}
+
+.aside-content .filter-item.color {
+  display: inline-block;
+  text-indent: -9999px;
+}
